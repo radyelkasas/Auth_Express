@@ -24,7 +24,7 @@ A robust starter template for building authentication systems with Express.js an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/express-auth-typescript.git
+git clone https://github.com/radyelkasas/express-auth-typescript.git
 cd express-auth-typescript
 ```
 
