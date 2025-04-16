@@ -28,7 +28,6 @@ export function validateRequest(schema: AnyZodObject) {
             message: err.message
           };
         });
-
         next(new BadRequestError("Validation Failed", validationErrors));
       } else {
         next(error);

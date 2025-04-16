@@ -1,6 +1,9 @@
 import express from "express";
 import rootRouter from "./routes";
 import { errorHandler } from "./middleware/errorHandler";
+import { validateEnv } from "./utils/validateEnv";
+
+validateEnv();
 
 const app = express();
 app.use(express.json());
